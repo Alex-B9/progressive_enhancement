@@ -7,14 +7,16 @@ blockquote {
     font-size: 25.6px;
     background-color: lightgrey;
 
-    border-left: 3px solid firebrick; 
-    border-radius: ;
+    border-left: 3px solid firebrick;
 }
 
 /*body*/
 body {
+    
     background: linear-gradient(180deg, rgba(58,97,128,1) 23%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);
 
+
+    
     margin: auto;
     max-width: 90%;
 }
