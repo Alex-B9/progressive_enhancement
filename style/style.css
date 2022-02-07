@@ -11,11 +11,13 @@ blockquote {
 }
 
 /*body*/
+
+
 body {
     
-    background: linear-gradient(180deg, rgba(58,97,128,1) 23%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);
-
-
+    /*background: linear-gradient(180deg, rgba(58,97,128,1) 23%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);*/
+    background-image: url(https://dailygeekshow.com/wp-content/uploads/2020/01/une-matrix-recette-1024x576.jpg);
+    background-repeat: no-repeat;
     
     margin: auto;
     max-width: 90%;
