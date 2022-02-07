@@ -1,0 +1,53 @@
+/*header*/
+
+blockquote {
+    margin: 80px 25%;
+    padding: 3px 30px;
+
+    font-size: 25.6px;
+    background-color: lightgrey;
+
+    border-left: 3px solid firebrick; 
+    border-radius: ;
+}
+
+/*body*/
+body {
+    background: linear-gradient(180deg, rgba(58,97,128,1) 23%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);
+
+    margin: auto;
+    max-width: 90%;
+}
+
+
+/* paragraph */
+p {
+	font-size: 15px;
+	font-family: serif;
+	color: darkblue;
+    letter-spacing: 0.5px;
+}
+
+/* Links */
+
+a {
+    font-size: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: springgreen;
+}
+a:hover{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
+}
+a:visited {
+    font-size: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: lime;
+}
+a:visited:hover {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
+}
+
