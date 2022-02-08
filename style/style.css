@@ -146,12 +146,23 @@ tfoot td {
 
 .img-1 {
     float: right;
+    position: relative;
+    top: -120px;
+    left: auto;
     margin: 10px;
+    width: 250px;
+    height: 200px;
 }
 .img-2 {
     float: right;
+    position: relative;
+    top: auto;
+    left: auto;
     margin: 10px;
   }
 .img-3 {
     float: left;
+    position: relative;
+    top: auto;
+    left: -30px;
     margin: 10px;
