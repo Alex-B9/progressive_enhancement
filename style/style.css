@@ -1,4 +1,8 @@
 /*header*/
+p ul li {
+    background-image: url(https://github.com/becodeorg/CRL-Keller-4/raw/main/1.The-Field/04.HTML-CSS/assets/bien.png);
+}
+
 
 blockquote q {
     font-style: italic;
@@ -33,8 +37,33 @@ body {
     max-width: 90%;
 }
 
+/*list*/
+
+.up {
+    background-image: url(./img/up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
+.down {
+    background-image: url(./img/down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
+.cat {
+    background-image: url(./img/cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 250px;
+}
 
 /* paragraph */
+
+p:first-of-type {
+    font-weight: bold;
+}
+
 p q {
     font-style: italic;
 }
@@ -97,3 +126,32 @@ a:visited:hover {
     text-transform: capitalize;
     font-style: italic;
 }
+
+/*Table*/
+
+tr:nth-child(odd){
+    background-color: grey ;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+thead tr th{
+    background-color: white;
+}
+tfoot td {
+    background-color: white;
+}
+
+/*image*/
+
+.img-1 {
+    float: right;
+    margin: 10px;
+}
+.img-2 {
+    float: right;
+    margin: 10px;
+  }
+.img-3 {
+    float: left;
+    margin: 10px;
