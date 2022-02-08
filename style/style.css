@@ -42,23 +42,23 @@ body {
 /*list*/
 
 .up {
-    background-image: url(./img/up.png);
+    background-image: url(/Assets/img/up.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 250px;
 }
 .down {
-    background-image: url(./img/down.png);
+    background-image: url(/Assets/img/down.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 250px;
 }
 .cat {
-    background-image: url(./img/cat.png);
+    background-image: url(/Assets/img/cat.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 250px;
-}
+} 
 
 /* paragraph */
 
