@@ -1,5 +1,9 @@
 /*header*/
 
+blockquote q {
+    font-style: italic;
+}
+
 blockquote {
     margin: 80px 25%;
     padding: 3px 30px;
@@ -9,9 +13,14 @@ blockquote {
 
     border-left: 3px solid firebrick;
 }
+header h1 {
+    background-color: yellow;
+}
+q .good {
+    color: green;
+}
 
 /*body*/
-
 
 body {
     
@@ -26,6 +35,10 @@ body {
 
 
 /* paragraph */
+p q {
+    font-style: italic;
+}
+
 p {
 	font-size: 15px;
 	font-family: serif;
@@ -40,7 +53,7 @@ a {
     font-family: 'Times New Roman', Times, serif;
     color: springgreen;
 }
-a:hover{
+a:hover {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     color: seagreen;
@@ -56,3 +69,31 @@ a:visited:hover {
     color: seagreen;
 }
 
+/* Figure */ 
+
+.villagers {
+    border-left: 3px solid blueviolet;
+}
+.farmer {
+    border-left: 3px solid green;
+}
+.green {
+    color: green;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.red {
+    color: red;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.greenq{
+    color: green;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.redq{
+    color: red;
+    text-transform: capitalize;
+    font-style: italic;
+}
