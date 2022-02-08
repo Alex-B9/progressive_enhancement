@@ -29,7 +29,7 @@ q .good {
 body {
     
     font-family: 'Open Sans Condensed', sans-serif;
-    
+
     /*background: linear-gradient(180deg, rgba(58,97,128,1) 23%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);*/
     background-image: url(https://images.unsplash.com/photo-1614157606535-2f3990b919a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
     background-repeat: no-repeat;
@@ -167,3 +167,4 @@ tfoot td {
     position: relative;
     top: auto;
     left: -30px; 
+}
